@@ -5,7 +5,7 @@ i = 1
 u_score = 0
 c_score = 0
 while (i<round+1):
-  print ("\nRound",i,"!  ||  Score Panel : ")
+  print ("\nRound",i,"!  ||  Score Panel :— ")
   print("               Computer's Score : ",c_score)
   print("               Your Score : ",u_score)
   c_guees = random.randint(1,3)
@@ -32,7 +32,7 @@ while (i<round+1):
   else:
     print("Enter a Valid Input!")
     i -= 1
-print("\nThe Final Score : ")
+print("\nThe Final Score :— ")
 print("Your Score : ",u_score)
 print("Computer's Score : ",c_score)
 if (u_score>c_score):
